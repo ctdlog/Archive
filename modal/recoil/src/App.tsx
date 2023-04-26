@@ -20,14 +20,7 @@ function App() {
           marginTop: '1rem',
         }}
       >
-        <button
-          onClick={() => {
-            console.log('clicked');
-            testModal1.openModal();
-          }}
-        >
-          Open Test Modal 1
-        </button>
+        <button onClick={testModal1.openModal}>Open Test Modal 1</button>
         <button onClick={testModal2.openModal}>Open Test Modal 2</button>
       </div>
     </>
